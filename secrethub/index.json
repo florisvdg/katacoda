@@ -1,9 +1,18 @@
 {
   "title": "SecretHub",
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "hideintro": true
   },
   "backend": {
     "imageid": "ubuntu"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "README.md",
+        "target": "~/"
+      }
+    ]
   }
 }
